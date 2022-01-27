@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "ingreso-egreso-app-a7cba": {
+      "hosting": {
+        "almacenApp": [
+          "ingreso-egreso-app-a7cba"
+        ]
+      }
+    }
+  }
+}
