@@ -39,7 +39,7 @@ export class AuthService {
           this.store.dispatch(authAction.setUser({ user }));
         });
       } else {
-        this.userSubs.unsubscribe();
+        this.userSubs?.unsubscribe();
         this.store.dispatch(authAction.unSetUser());
         this.store.dispatch(ingresoAction.unSetItems());
       }
